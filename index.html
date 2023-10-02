@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" /> -->
+    <link rel="stylesheet" href="app.css">
+    <title>Animationer</title>
+
+</head>
+
+<body>
+    <button class="toggle">
+
+    </button>
+    <aside>
+        <nav>
+            <ol>
+                <li>
+                    <a href="/">
+                        <h3>Home</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus reprehenderit hic amet
+                            omnis vitae itaque quia ea a eveniet accusamus </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>What we do</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo facilis aliquid, nemo
+                            voluptatem magni </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Who we are</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Contact</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                    </a>
+                </li>
+            </ol>
+        </nav>
+    </aside>
+    <div class="container">
+        <h1>Hello there</h1>
+        <p>Toogle the red button in the upper left corner</p>
+    </div>
+
+    <script>
+        document.querySelector('.toggle')
+            .addEventListener('click', (e) => {
+                document.querySelector('nav').classList.toggle('open')
+            })
+    </script>
+</body>
+<script src="https://kit.fontawesome.com/7c9761decf.js" crossorigin="anonymous"></script>
+
+</html>
